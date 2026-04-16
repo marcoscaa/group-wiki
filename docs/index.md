@@ -1,4 +1,4 @@
-# Research Group Tutorials
+# Calegari Group Tutorials
 
 Welcome to the group wiki. Here you will find tutorials and reference guides for the codes and tools we use daily.
 

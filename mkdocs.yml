@@ -1,6 +1,6 @@
-site_name: Group Tutorials
-site_description: Tutorials and reference guides for the research group
-site_author: Research Group
+site_name: Calegari Group Tutorials
+site_description: Tutorials and reference guides for the Calegari research group
+site_author: Calegari Group
 
 theme:
   name: material
@@ -61,3 +61,5 @@ nav:
   - HPC:
     - Overview: hpc/index.md
     - Flux Job Scheduler: hpc/flux.md
+  - Contributing:
+    - How to Write a Tutorial: contributing/index.md
