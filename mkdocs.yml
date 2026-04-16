@@ -1,0 +1,63 @@
+site_name: Group Tutorials
+site_description: Tutorials and reference guides for the research group
+site_author: Research Group
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Installation:
+    - Overview: installation/index.md
+    - MACE: installation/mace.md
+    - MACE + LAMMPS: installation/mace_lammps.md
+  - LAMMPS:
+    - Overview: lammps/index.md
+    - Input File Structure: lammps/input_file.md
+  - Quantum ESPRESSO:
+    - Overview: qe/index.md
+    - Input File Structure: qe/input_file.md
+  - VASP:
+    - Overview: vasp/index.md
+    - Input Files: vasp/input_files.md
+  - Python & ASE:
+    - Overview: python/index.md
+    - Basic Commands: python/basics.md
+    - ASE Tutorial: python/ase.md
+  - HPC:
+    - Overview: hpc/index.md
+    - Flux Job Scheduler: hpc/flux.md
