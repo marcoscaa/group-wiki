@@ -6,8 +6,8 @@ This section covers how to install and compile the codes used in the group on HP
 
 | Guide | Target machine | Notes |
 |---|---|---|
-| [MACE](mace.md) | Frontier (AMD GPU) | Standalone Python install |
-| [MACE + LAMMPS](mace_lammps.md) | Frontier (AMD GPU) | Full ML-MD stack with Kokkos/HIP |
+| [MACE](mace.md) | Tuolumne/LLNL (AMD GPU) | Standalone Python install |
+| [MACE + LAMMPS](mace_lammps.md) | Tuolumne/LLNL (AMD GPU) | Full ML-MD stack with Kokkos/HIP |
 
 ## General Tips
 

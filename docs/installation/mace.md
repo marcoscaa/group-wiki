@@ -1,7 +1,7 @@
 # Install MACE (standalone)
 
 This guide installs the [MACE](https://github.com/ACEsuit/mace) machine-learning interatomic potential framework
-on a machine with AMD GPUs (ROCm), such as **Frontier at ORNL**.
+on a machine with AMD GPUs (ROCm), such as **Tuolumne at LLNL**.
 
 ## Prerequisites
 
