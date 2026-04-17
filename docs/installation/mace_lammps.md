@@ -2,7 +2,7 @@
 
 This guide builds LAMMPS with the `PKG_ML-MACE` and Kokkos/HIP packages for AMD GPU acceleration,
 using the [symmetrix](https://github.com/wcwitt/symmetrix) pair style.
-Target machine: **Tuolumne at LLNL** (AMD MI300A, `gfx942`).
+Target machine: **Tuolumne at LLNL** (AMD MI300A, `gfx942`). Contribution from Filippo Balzaretti. 
 
 ## Prerequisites
 
