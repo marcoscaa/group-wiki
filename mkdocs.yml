@@ -45,6 +45,8 @@ nav:
     - Overview: installation/index.md
     - MACE: installation/mace.md
     - MACE + LAMMPS: installation/mace_lammps.md
+    - MACE + LAMMPS + PLUMED: installation/mace_lammps_plumed.md
+    - PLUMED for ASE: installation/plumed_ase.md
   - LAMMPS:
     - Overview: lammps/index.md
     - Input File Structure: lammps/input_file.md
